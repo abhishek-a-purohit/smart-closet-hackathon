@@ -1,0 +1,55 @@
+{
+    "best_selling_items": [
+        {
+            "description": "Sports Pants by MastekWear",
+            "item_id": "I22",
+            "sales": 192
+        },
+        {
+            "description": "Formal Pants by MastekWear",
+            "item_id": "I44",
+            "sales": 198
+        }
+    ],
+    "discounted_items": [
+        {
+            "description": "Sports Jacket by MastekWear",
+            "discount": 50,
+            "item_id": "I36"
+        },
+        {
+            "description": "Ethnic Jacket by MastekWear",
+            "discount": 50,
+            "item_id": "I8"
+        }
+    ],
+    "explanation": {
+        "best_selling_items": "These are the items that have the most number of sales across all users. They are the most popular items.",
+        "discounted_items": "These items have the highest level of discount. This could entice the user to make a purchase due to the price reduction.",
+        "personalized_recommendations": "These recommendations are based on the user's previous interactions with the website. User U1 has previously added these items to their cart."
+    },
+    "personalized_recommendations": {
+        "previous_interactions": [
+            {
+                "interaction": "Cart",
+                "item_id": "I31"
+            },
+            {
+                "interaction": "Cart",
+                "item_id": "I33"
+            }
+        ],
+        "recommended_items": [
+            {
+                "description": "Formal Pants by MastekWear",
+                "item_id": "I31",
+                "reason": "Previously Added to Cart"
+            },
+            {
+                "description": "Casual Pants by MastekWear",
+                "item_id": "I33",
+                "reason": "Previously Added to Cart"
+            }
+        ]
+    }
+}
