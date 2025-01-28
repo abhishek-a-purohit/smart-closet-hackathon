@@ -41,7 +41,7 @@ const displayRecommendations = (data) => {
               return `
                 <div class="card best-selling-card">
                   <h3>${item.description}</h3>
-                  <img src="${imageName}" alt="${item.description}" class="product-image" />
+                  <img src="${imageName}" alt="${item.description}" class="product-image" width="225" height="225" />
                   <p>Sales: ${item.sales}</p>
                   <button class="buy-button" onclick="buyItem('${item.item_id}', '${item.description}')">Buy</button>
                 </div>
@@ -63,7 +63,7 @@ const displayRecommendations = (data) => {
               return `
                 <div class="card discounted-card">
                   <h3>${item.description}</h3>
-                  <img src="${imageName}" alt="${item.description}" class="product-image" />
+                  <img src="${imageName}" alt="${item.description}" class="product-image" width="225" height="225" />
                   <p>Discount: ${item.discount}%</p>
                   <button class="buy-button" onclick="buyItem('${item.item_id}', '${item.description}')">Buy</button>
                 </div>
@@ -85,7 +85,7 @@ const displayRecommendations = (data) => {
               return `
                 <div class="card personalized-card">
                   <h3>${item.description}</h3>
-                  <img src="${imageName}" alt="${item.description}" class="product-image" />
+                  <img src="${imageName}" alt="${item.description}" class="product-image" width="225" height="225" />
                   <p>Reason: ${item.reason}</p>
                   <button class="buy-button" onclick="buyItem('${item.item_id}', '${item.description}')">Buy</button>
                 </div>
@@ -108,7 +108,7 @@ const loadSampleData = () => {
     discounted_items: [
       { description: "Sports Jacket by MastekWear", discount: 50, item_id: "I36" },
       { description: "Ethnic Jacket by MastekWear", discount: 50, item_id: "I8" },
-       { description: "Ethnic Jacket by MastekWear", discount: 50, item_id: "I36" },
+       { description: "Ethnic Jacket by MastekWear", discount: 50, item_id: "I38" },
     ],
     explanation: {
       best_selling_items: "These items have the highest sales in the store.",
