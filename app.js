@@ -37,7 +37,7 @@ const displayRecommendations = (data) => {
           .map(
             (item) => {
               // Generate image filename by removing spaces and appending '.jfif'
-              const imageName = item.description.split(" by")[0].replace(/\s+/g, '') + ".jfif";
+              const imageName = item.item_id + ".jfif";
               return `
                 <div class="card best-selling-card">
                   <h3>${item.description}</h3>
@@ -59,7 +59,7 @@ const displayRecommendations = (data) => {
         ${data.discounted_items
           .map(
             (item) => {
-              const imageName = item.description.split(" by")[0].replace(/\s+/g, '') + ".jfif";
+              const imageName = item.item_id + ".jfif";
               return `
                 <div class="card discounted-card">
                   <h3>${item.description}</h3>
@@ -81,7 +81,7 @@ const displayRecommendations = (data) => {
         ${data.personalized_recommendations.recommended_items
           .map(
             (item) => {
-              const imageName = item.description.split(" by")[0].replace(/\s+/g, '') + ".jfif";
+              const imageName = item.item_id + ".jfif";
               return `
                 <div class="card personalized-card">
                   <h3>${item.description}</h3>
