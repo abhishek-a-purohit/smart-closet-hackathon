@@ -118,7 +118,7 @@ const loadSampleData = () => {
     personalized_recommendations: {
       recommended_items: [
         { description: "Formal Pants by MastekWear", item_id: "I31",reason: "Previously Added to Cart" },
-        { description: "Sports Jacket by MastekWear",item_id: "I63",reason: "Interest in sports items"" },
+        { description: "Sports Jacket by MastekWear",item_id: "I63",reason: "Interest in sports items" },
         { description: "Ethnic Kurta by MastekWear", item_id: "I72", reason: "Variations of previously purchased Kurta" },
       ],
     },
