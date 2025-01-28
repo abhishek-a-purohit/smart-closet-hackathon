@@ -103,10 +103,12 @@ const loadSampleData = () => {
     best_selling_items: [
       { description: "Sports Pants by MastekWear", item_id: "I22", sales: 192 },
       { description: "Formal Pants by MastekWear", item_id: "I44", sales: 198 },
+      { description: "Sports Shoes by MastekWear", item_id: "I87", sales: 198 },
     ],
     discounted_items: [
       { description: "Sports Jacket by MastekWear", discount: 50, item_id: "I36" },
       { description: "Ethnic Jacket by MastekWear", discount: 50, item_id: "I8" },
+       { description: "Ethnic Jacket by MastekWear", discount: 50, item_id: "I36" },
     ],
     explanation: {
       best_selling_items: "These items have the highest sales in the store.",
@@ -115,8 +117,9 @@ const loadSampleData = () => {
     },
     personalized_recommendations: {
       recommended_items: [
-        { description: "Formal Pants by MastekWear", reason: "Previously Added to Cart" },
-        { description: "Casual Pants by MastekWear", reason: "Previously Added to Cart" },
+        { description: "Formal Pants by MastekWear", item_id: "I31",reason: "Previously Added to Cart" },
+        { description: "Sports Jacket by MastekWear",item_id: "I63",reason: "Previously Added to Cart" },
+        { description: "Ethnic Kurta by MastekWear", item_id: "I72", reason: "Variations of previously purchased Kurta" },
       ],
     },
   };
